@@ -28,6 +28,7 @@ class Store {
             return parsedNotes;
         });
     }
+        
 
     addNote(note) {
         const { title, text } = note;
@@ -38,9 +39,11 @@ class Store {
 
         const newNote =  { title, text, id: uuidv1() };
 
-        return this.getNotes()
-            .then((notes) => [...notes, newNote])
+        const notes = this.getNotes();
+        return [...notes, newNote];
     }
 }
 
-module.exports = Store;
+const store = new Store
+
+module.exports = store;
