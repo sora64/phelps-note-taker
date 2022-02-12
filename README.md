@@ -23,7 +23,7 @@
 
   ## Usage
 
-  After running "npm start" in your terminal, open "http://localhost:3001" in your browser. Then click the "Get Started" button to navigate to the page where you will be able to add notes. Click the "+" button to add a new note, type a title and some text, and then click the button that looks like a floppy disk to save the note. Click on an old note in the left-hand column to see that note. Click on the trash can icon next to a note's title in the left-hand column to delete that note.
+  If you would like to run the application from your own computer, after running "npm start" in your terminal, open "http://localhost:3001" in your browser. If you want to use the pre-existing server, go to https://intense-lake-30149.herokuapp.com/, then click the "Get Started" button to navigate to the page where you will be able to add notes. Click the "+" button to add a new note, type a title and some text, and then click the button that looks like a floppy disk to save the note. Click on an old note in the left-hand column to see that note. Click on the trash can icon next to a note's title in the left-hand column to delete that note.
 
 ## Deployed Application
 Link: [Note Taker](https://intense-lake-30149.herokuapp.com/)
