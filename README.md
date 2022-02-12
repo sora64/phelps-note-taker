@@ -19,7 +19,7 @@
 
   ## Installation
 
-  Make sure to initialize npm with by running "npm init -y" in your terminal, and then install the needed packages by also running "npm i" in your terminal. Start the application by running "npm start" in your terminal.
+  Make sure to initialize npm by running "npm init -y" in your terminal, and then install the needed packages by also running "npm i" in your terminal. Start the application by running "npm start" in your terminal.
 
   ## Usage
 
