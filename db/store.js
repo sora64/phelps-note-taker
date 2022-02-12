@@ -43,15 +43,14 @@ class Store {
             .then((data) => this.write(data))
     }
 
-    removeNote() {
+    removeNote(id) {
         return this.getNotes()
-            .then((notes) => {
-                notes.forEach(element => {
-                    const id = element.id;
-                    console.log(id);
-                    return id;
-                })
-            })
+        .then((notes) => {
+            const filteredNotes = notes.filter((note) => note.id !== id);
+            console.log(filteredNotes);
+            return filteredNotes;
+        })
+        .then((data) => this.write(data));
     }
 }
 
