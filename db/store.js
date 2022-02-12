@@ -29,7 +29,6 @@ class Store {
         });
     }
         
-
     addNote(note) {
         const { title, text } = note;
 
@@ -39,8 +38,20 @@ class Store {
 
         const newNote =  { title, text, id: uuidv1() };
 
-        const notes = this.getNotes();
-        return [...notes, newNote];
+        return this.getNotes()
+            .then((notes) => [...notes, newNote])
+            .then((data) => this.write(data))
+    }
+
+    removeNote() {
+        return this.getNotes()
+            .then((notes) => {
+                notes.forEach(element => {
+                    const id = element.id;
+                    console.log(id);
+                    return id;
+                })
+            })
     }
 }
 

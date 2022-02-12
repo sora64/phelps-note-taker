@@ -1,6 +1,1 @@
-[
-    {
-        "title":"Languages",
-        "text":"1: Latin; 2: Japanese; 3: Ancient Greek; 4: Italian; 5: Spanish; 6: French"
-    }
-]
+[{"title":"Sample Note","text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget nisl sollicitudin, sodales velit non, maximus orci. Nulla eget porta est. Nunc ac interdum nulla. Suspendisse eu blandit ex, ac porttitor nisl. In ipsum magna, mollis at tellus eu, elementum maximus ex. Aenean quis ex in enim semper accumsan eget vitae arcu. Aliquam vitae dolor non neque vehicula dictum nec at leo. Etiam ut vehicula ligula. In congue lorem tristique dolor convallis cursus. Aliquam mattis orci ac tristique ornare. Vestibulum placerat leo dui, non sagittis sem semper vel.", "id":"1"},{"title":"Languages","text":"1: Latin\n2: Japanese\n3: Ancient Greek\n4: Spanish\n5: Italian\n6: French","id":"491557d0-8b9b-11ec-bbba-0b5fb90a8517"},{"title":"Things to do","text":"1) Challenge\n2) Sleep\n3) Enjoy the nice weather","id":"2ceae280-8b9d-11ec-95ce-e11a127e3804"}]
